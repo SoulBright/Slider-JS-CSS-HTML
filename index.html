@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slider-container">
+        <div class="mySlides fade">
+            <div class="number">1/5</div>
+            <img src="images/img_1.jpg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number">2/5</div>
+            <img src="images/img_2.jpg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number">3/5</div>
+            <img src="images/img_3.jpg" style="width: 100%" alt="">
+        </div>
+        
+        <div class="mySlides fade">
+            <div class="number">4/5</div>
+            <img src="images/img_4.jpg" style="width: 100%" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number">5/5</div>
+            <img src="images/img_5.jpg" style="width: 100%" alt="">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+    </div>
+    <br>
+
+    <nav style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
